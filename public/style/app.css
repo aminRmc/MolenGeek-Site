@@ -12269,7 +12269,7 @@ body #partenair h1, body #partenair .h1 {
 body #partenair div {
   display: flex;
   align-items: center;
-  width: 30%;
+  width: 40%;
   overflow: hidden;
   overflow-x: visible;
   height: 200px;
@@ -12305,6 +12305,9 @@ body .contact-maps .contact-text {
   align-items: center;
   flex-direction: column;
   color: white;
+}
+.nav2{
+  display: none;
 }
 body .contact-maps .contact-text h2, body .contact-maps .contact-text .h2 {
   color: #3C096C;
@@ -12414,6 +12417,72 @@ body footer .resaux i:hover {
   body .navbar .nav #burger i {
     color: white;
     font-size: 40px;
+  }
+
+  body #event-a-venir #content-a-venir ul .a-venir{
+    width: 100%;
+    height: 200px;
+  }
+
+  body #event-a-venir #contact-event a {
+width: 150px;
+  }
+  body #new-letter div input[type=mail]{
+    width: 150px;
+  }
+  body #new-letter div input[type=button]{
+    width: 100px;
+  }
+
+  body .contact-maps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #b38ee1;
+    height: 40em;
+    flex-direction: column;
+  }
+  body .contact-maps div {
+    height: 92%;
+    width: 95%;
+    padding-bottom: 10px;
+  }
+  body .contact-maps div iframe {
+    border-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-shadow: 20px 20px 60px #9879bf, -20px -20px 60px #cea3ff;
+  }
+  .nav2{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    background: black;
+  
+  }
+  .nav2 nav a{
+    color: white;
+    text-decoration: none;
+    display: none;
+  }
+  .nav2 nav i{
+    color: white;
+    display: none;
+  }
+  .nav2 nav{
+    text-align: center;
+    display: flex;
+    position: absolute;
+    right: 0;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    width: 0px;
+
+    background:#10002B;
+    border-radius: 20px;
+    transition: 0.5s;
+  
   }
 }
 /* ### TABLET ### */

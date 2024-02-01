@@ -83,9 +83,10 @@ body .navbar .nav nav a:active {
     box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   }
   body .baniere h1, body .baniere .h1 {
-    font-size: 30px;
+    font-size: 50px;
     text-align: center;
     margin-bottom: 100px;
+    color: #ffffff5d;
   }
   body .baniere h3, body .baniere .h3 {
     font-size: 25px;
@@ -159,7 +160,7 @@ body .navbar .nav nav #langue {
 .co-work div{
     display: flex;
     width: 80%;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: center;
     gap: 50px;
 }
@@ -172,7 +173,31 @@ body .navbar .nav nav #langue {
 list-style:inside
 }
 .image{
-    width: 800px;
+    width: 600px;
+}
+.horaire{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+.horaire div{
+
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  background: #C77DFF;
+  border-radius: 20px;
+}
+.horaire div h1{
+  width: 100%;
+  text-align: center;
+}
+.horaire div h3{
+  width: 100%;
+  text-align: center;
 }
 .card{
     display: flex;
@@ -252,7 +277,18 @@ body footer {
       color: white;
       font-size: 40px;
     }
+    .image img{
+      display: none;
+      height: 200px;
+      width: 250px;
+    }
+    .card div iframe{
+      width: 100%;
+      height: 350px;
+    }
   }
+
+
   /* ### TABLET ### */
   @media (min-width: 577px) and (max-width: 775px) {
     body .navbar {
@@ -272,7 +308,7 @@ body footer {
       font-size: 10px;
     }
     body .navbar .nav #burger {
-      display: block;
+      display: block; 
       width: 50%;
       margin: 0;
     }

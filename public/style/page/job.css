@@ -83,9 +83,10 @@ body .navbar .nav nav a:active {
     box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
   }
   body .baniere h1, body .baniere .h1 {
-    font-size: 30px;
+    font-size: 100px;
     text-align: center;
     margin-bottom: 100px;
+    color: #ffffff5f;
   }
   body .baniere h3, body .baniere .h3 {
     font-size: 25px;

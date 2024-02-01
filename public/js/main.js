@@ -81,3 +81,28 @@ langue.addEventListener('click', ()=>{
     }
 
 })
+
+let btnnav = document.querySelector(`#burger`)
+let nav2 = document.querySelector(`.nav2`).querySelector(`nav`)
+let navi = nav2.querySelector(`i`)
+let navli = nav2.querySelectorAll(`a`)
+
+btnnav.addEventListener('click', ()=>
+{
+    if (nav2.style.width == `380px`) {
+        nav2.style.width = `0px`
+        navi.style.display =`none`
+        navli.forEach(element => {
+            element.style.display =`none`
+        });
+       
+    }
+    else{
+        nav2.style.width = `380px`
+        nav2.style.justifyContent = `center`
+        navi.style.display =`block`
+        navli.forEach(element => {
+            element.style.display =`block`
+        });
+    }
+})
